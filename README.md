@@ -6,8 +6,6 @@
 ## Create a input.txt file
  Add Shakesphere sonnets content into input.txt
 
-## Run a pipeline
-
-Use the command in git bash
+## Generate word count results using below commond in Git Bash
 `$ mvn compile exec:java -Dexec.mainClass=org.apache.beam.examples.WordCount -Dexec.args="--inputFile=input.txt --output=counts" -Pdirect-runner`
 
